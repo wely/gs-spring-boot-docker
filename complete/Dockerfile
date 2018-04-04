@@ -12,6 +12,7 @@ RUN apt-get update \
 
 COPY sshd_config /etc/ssh/
 
+#test
 EXPOSE 2222 80
 
 COPY init.sh /bin/init.sh

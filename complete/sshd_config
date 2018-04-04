@@ -10,6 +10,6 @@ Ciphers aes128-cbc,3des-cbc,aes256-cbc
 MACs hmac-sha1,hmac-sha1-96
 StrictModes 		yes
 SyslogFacility 		DAEMON
-PasswordAuthentication 	yes
+PasswordAuthentication 	yes 
 PermitEmptyPasswords 	no
 PermitRootLogin 	yes
